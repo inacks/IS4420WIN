@@ -1,0 +1,6 @@
+# Built program and test runner (the program is published in Releases)
+*.exe
+# CSV logs written next to the program
+IS4420_log_*.csv
+# Python
+__pycache__/
