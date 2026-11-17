@@ -64,7 +64,7 @@ Reading a 4-20 mA current loop normally means designing your own measuring circu
 | GND | the adapter's GND |
 | CIN | the current loop, as the [IS4420-M1 datasheet](https://inacks.com/wp-content/uploads/IS4420-M1-Datasheet-I2C-4-20mA-Current-Loop-Receiver-ISDOC146.pdf) shows |
 
-Connect the loop the right way round. CIN and 3V3 have no protection: a reversed loop, a loop supply connected straight to CIN, or a reversed supply destroys the module.
+Connect the loop the right way round. CIN and 3V3 have no protection: a reversed loop, a loop supply connected straight to CIN, or a reversed supply may permanently damage the module.
 
 ## Using the program
 
