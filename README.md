@@ -17,6 +17,8 @@
   <a href="https://github.com/inacks/IS4420WIN/releases/latest"><b>Download IS4420WIN</b></a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="https://inacks.com/is4420"><b>Get the IS4420-M1 module</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://inacks.com/wp-content/uploads/IS4420-M1-Datasheet-I2C-4-20mA-Current-Loop-Receiver-ISDOC146.pdf"><b>IS4420-M1 datasheet</b></a>
 </p>
 
 ## What it does
@@ -60,7 +62,7 @@ Reading a 4-20 mA current loop normally means designing your own measuring circu
 | TX | the adapter's RX, with a pull-up resistor of 2.2 kΩ (4.7 kΩ at most) to the adapter's logic supply, 3.3 V or 5 V. TX is open-drain and has no pull-up of its own. |
 | 3V3 | 3.3 V |
 | GND | the adapter's GND |
-| CIN | the current loop, as the IS4420-M1 datasheet shows |
+| CIN | the current loop, as the [IS4420-M1 datasheet](https://inacks.com/wp-content/uploads/IS4420-M1-Datasheet-I2C-4-20mA-Current-Loop-Receiver-ISDOC146.pdf) shows |
 
 Connect the loop the right way round. CIN and 3V3 have no protection: a reversed loop, a loop supply connected straight to CIN, or a reversed supply destroys the module.
 

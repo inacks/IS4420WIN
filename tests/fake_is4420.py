@@ -5,6 +5,8 @@ Sends the IS4420-M1 line about every 103 ms, 115200 8N1, formatted as the IS4420
 datasheet defines it (37 characters + CR LF, with the IS4420 temperature), or the
 earlier line without the temperature with --legacy (29 characters + CR LF).
 
+IS4420-M1 datasheet: https://inacks.com/wp-content/uploads/IS4420-M1-Datasheet-I2C-4-20mA-Current-Loop-Receiver-ISDOC146.pdf
+
 Linux:    python3 fake_is4420.py --pty /dev/ttyUSB90 [scenario]
           (creates a pseudo-terminal and a symbolic link to it)
 Windows:  python fake_is4420.py --port COM11 [scenario]

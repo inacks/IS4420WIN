@@ -1,6 +1,7 @@
 // IS4420WIN Current Loop Receiver - tests of the line parser, the line assembler and the port code.
 // Lines: the current one (37 characters + CR LF, with the IS4420 temperature) and the one of
 // earlier firmware, without the temperature (29 + CR LF).
+// IS4420-M1 datasheet: https://inacks.com/wp-content/uploads/IS4420-M1-Datasheet-I2C-4-20mA-Current-Loop-Receiver-ISDOC146.pdf
 //
 // Build (Windows, from the project folder):
 //   %WINDIR%\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /out:LineTests.exe

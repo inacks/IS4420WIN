@@ -1,4 +1,5 @@
 // IS4420WIN Current Loop Receiver - line parser and line assembler.
+// IS4420-M1 datasheet: https://inacks.com/wp-content/uploads/IS4420-M1-Datasheet-I2C-4-20mA-Current-Loop-Receiver-ISDOC146.pdf
 //
 // The IS4420-M1 sends one line per measurement, about every 103 ms, 115200 8N1.
 // Current firmware (39 bytes, 37 characters before CR LF):
